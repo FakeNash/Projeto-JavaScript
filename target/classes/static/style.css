@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    background-color: rgb(181, 184, 35);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 80vw;
+}
+
+form>label{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+form>input[type="text"]{
+    width: 400px;
+    height: 45px;
+    outline: none;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+}
+button{
+    padding: 14px 7px;
+    border: none;
+    border-radius: 5px;    
+}
+
+button[type="submit"]{
+    background-color: green;
+    color: white;
+}
+button[type="reset"]{
+    background-color: red;
+    color: white;
+}
